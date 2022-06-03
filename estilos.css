@@ -50,7 +50,7 @@ footer a:hover {
 
  /* contenido principal */
  main>div {
-     border: 2px red solid;
+     /* border: 2px red solid; */
      min-height: 180px;
      margin: 0.5rem;   
      height: auto;
@@ -68,7 +68,7 @@ footer a:hover {
  } */
  
  .secciones {
-     border: 2px yellow solid;
+     /* border: 2px yellow solid; */
      min-height: 50px;
      margin: 0.5rem;
      text-align: justify;
@@ -152,54 +152,40 @@ footer a:hover {
     border-radius: 0.5rem;
 }
 
-.grid-f1 {
+.grid {
     display: grid;
-    grid-template-rows: (3, 300px);
-    /* grid-column-gap: 10px; */
-    grid-template-columns: [x0] 99%;
-    align-items: center;
-    border: 2px black solid;
-    box-shadow: 0 3px 3px 0 rgb(148, 150, 146);
-    background-color: rgb(24, 24, 24, 50);
-    width: 99%;
-    margin: 0.5rem;
-    justify-content: center;
-}
-
-.grid-f1 a {
-    text-decoration: none;
-}
-
-.grid-f2 {
-    display: grid;
-    grid-template-rows: auto;
-    /* grid-column-gap: 10px; */
-    grid-template-columns: [x0] 30% [x1] 30% [x3] 30%;
+    width: 100%;
+    grid-template-rows: 90%;
+    grid-template-columns: [x0] 32% [x1] 32% [x3] 32%;
     align-items: center; 
-    border: 2px black solid;
-    box-shadow: 0 3px 3px 0 rgb(148, 150, 146);
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+    grid-column-gap: 10px;
+
 }
 
-.grid-f2 a {
+.grid a {
     text-decoration: none;
+}
+
+#axis:hover .larger {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
 }
 
 @media (max-width:768px){
-    .grid-f1 {
-        display: grid;
-        grid-template-rows: 100%;
-        grid-template-columns: auto;
-        align-items: center;
-        display: block;
-    }
     
-    .grid-f2 {
+    .grid {
         display: grid;
         grid-template-rows: 100% 100%;
         grid-template-columns: auto;
         align-items: center; 
         display: block;
     }
+
 }
   
   @media (max-width:500px){
@@ -224,5 +210,7 @@ footer a:hover {
         border-bottom: 2px rgb(134, 134, 134, 50%) solid;
   }
 }
+
+
     
 
