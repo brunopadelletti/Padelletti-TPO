@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vivero cacique</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo"><a href="index.html"><img src="Inagenes/25 x 25sdsd.png" alt="header-logo"></a></div>
+        <nav class="header-menubar">
+            <ul>
+
+                <li> <a href="Contacto.html ">Contacto</a></li>
+                <li> <a href="Noticias.html">Noticias</a></li> 
+                <li> <a href="Productos.html">Productos</a></li>
+                <li> <a href="index.html">INICIO</a></li>
+                
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="productos principales">
+            <section class="secciones">
+            <h1 class="titulos"> Vivero Cacique</h1>
+            </section>
+            <section class="secciones">
+                <article>
+                    <div>
+                        <h3>¿Quienes somos?</h3>
+                        <p>Lo que comenzo como una simple actividad de distracció fue evolucionando hasta convertirse en un emprendimiento con gran posibilidad de crecimiento y desarrollo,muy rentable y faborable con el medio ambiente, ya que los valores principales que tratamos son el reciclaje, aprovechamiento y reutilizacion de todo elemento no degradable y nosivo para el medio ambiente.</p>
+                    </div>
+                    
+                   
+                </article>
+                <article>
+                   
+                    <div>
+                        <h3>¿Donde estamos?</h3>
+                        <p>durante los fines de semana se nos puede encontrar en 1 de marzo y av.buenos aires</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <aside class="contenido"></aside>
+    </main>
+    
+    <footer>
+        <br>
+ Bruno Padelletti
+    </footer>
+</body>
+</html>
+
